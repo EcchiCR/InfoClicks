@@ -18,7 +18,7 @@ El archivo se abre con Gamemaker: Studio, disponible en Steam
 
 [0.2] -> AHK
 + Se logra implementar exitosamente el código en el lenguaje AHK(AutoHotKey)
-- El programa a pesar de registrar los clicks en las sesiones de debugeo, a la hora de la práctica real que inutilizado debido a que
+- El programa a pesar de registrar los clicks en las sesiones de debugeo, a la hora de la práctica real queda inutilizado debido a que
 los clicks se bloquean solo para la aplicación aunque esta este en segundo plano.
 +Se implementa el procedimiento de mostrar resultados por medio de Notepad
 
