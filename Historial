@@ -1,0 +1,36 @@
+InfoClicks - Historial de versiones
+
+Nace la idea jugando la nueva versión de TitanQuest
+
+-Fase Alpha
+
+[0]
+Se idealiza el código que es bastante simple; Se necesita que el programa registre los clicks que se hacen en el sistema completamente. 
+Se asume desde entonces que la aplicación funcionará en segundo plano. Para el registro de los clicks se usarán variables para cada
+botón que se quiera registrar y despues dichas variables serán mostradas al usuario cuando este decida cerrar la aplicación.
+
+[0.1]
+Se implementa, primeramente, el código en "Gamemaker: Studio" por ser un medio de programación que ya conocía de antes(factor nostalgia).
+Esta versión sin embargo presenta una grave atenuante y es que el código solo funciona dentro del formulario del programa.
+
+Esta primerisima versión esta a manera de documentación en el siguiente enlace: http://www.mediafire.com/file/n4ayxe813j1paza/InfoClicks_Alpha0.1_GML_test.7z
+El archivo se abre con Gamemaker: Studio, disponible en Steam
+
+[0.2] -> AHK
++ Se logra implementar exitosamente el código en el lenguaje AHK(AutoHotKey)
+- El programa a pesar de registrar los clicks en las sesiones de debugeo, a la hora de la práctica real que inutilizado debido a que
+los clicks se bloquean solo para la aplicación aunque esta este en segundo plano.
++Se implementa el procedimiento de mostrar resultados por medio de Notepad
+
+[0.3] -> Primera versión puesta a dispocision del público
++ Se corrige el error de control bloqueado agregando el símbolo tilde al inicio de los eventos Click y quedan a disposición del sistema
++ Se agrega un mensaje de bienvenida que explica brevemente el funcionamiento del programa.
+
+[0.4]
+-Se elimina un bug que causaba que solo se pudieran ver los resultados en Windows en ingles. Se implementa la solución con la función de
+captura de título de ventana. Se sigue necesitando Notepad para funcionar.
+
+[0.5] GUI
++Se incorpora una pequeña GUI que reemplaza el método de muestra de resultados y cierre de la aplicación
+-Se elimina a Notepad del código
++Se cambia el mensaje de bienvenida
