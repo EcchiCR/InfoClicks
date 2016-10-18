@@ -30,7 +30,7 @@ los clicks se bloquean solo para la aplicación aunque esta este en segundo plan
 -Se elimina un bug que causaba que solo se pudieran ver los resultados en Windows en ingles. Se implementa la solución con la función de
 captura de título de ventana. Se sigue necesitando Notepad para funcionar.
 
-[0.5] GUI
+[0.5] -> GUI
 +Se incorpora una pequeña GUI que reemplaza el método de muestra de resultados y cierre de la aplicación
 -Se elimina a Notepad del código
 +Se cambia el mensaje de bienvenida
