@@ -34,3 +34,8 @@ captura de título de ventana. Se sigue necesitando Notepad para funcionar.
 +Se incorpora una pequeña GUI que reemplaza el método de muestra de resultados y cierre de la aplicación
 -Se elimina a Notepad del código
 +Se cambia el mensaje de bienvenida
+
+[0.6] -> UI en pantalla
++Ahora la interfaz aparece en pantalla desde el inicio del programa
+-Se elimina temporalmente el mensaje de bienvenida
+-Se quita la tecla que mostraba la UI al final para ver los resultados
