@@ -39,3 +39,15 @@ captura de título de ventana. Se sigue necesitando Notepad para funcionar.
 +Ahora la interfaz aparece en pantalla desde el inicio del programa
 -Se elimina temporalmente el mensaje de bienvenida
 -Se quita la tecla que mostraba la UI al final para ver los resultados
+
+[0.7] <- Alpha final
++Se corrigen algunos errores de ortografía en la interface
++Se agrega una función de solo lectura a los campos de información
+-Se limpia el código borrando líneas que ya no son necesarias
+
+Fase Beta
+
+[1] <- Lavado de cara
+
++Se presenta el fomulario y sus copntroles con colores
++Se agrega una función para resetear las variables a conveniencia
